@@ -1,884 +1,508 @@
-<?xml version="1.0" encoding="UTF-8"?><resources>
-      
-  <!-- ############ -->
-      
-  <!-- ## COMMON ## -->
-      
-  <!-- ############ -->
-      
-  <!-- This covers strings that are meant to be used across the app -->
-      
-  <string name="app_name">MHWorld データベース</string>
-      
-  <string name="app_name_icon">MHWDB</string>
-      
-  <string name="action_search">探す</string>
-      
-  <string name="action_bookmark">ブックマーク</string>
-      
-  <string name="action_filter">フィルタ</string>
-      
-  <string name="action_clear">晴れ</string>
-      
-  <string name="action_cancel">キャンセル</string>
-      
-  <string name="action_apply">適用する</string>
-      
-  <string name="action_undo">元に戻す</string>
-      
-  <string name="general_no_data">ここには何もありません、Meowster…</string>
-   
-  <!-- Generic message that is shown when a menu/tab does not contain any data. This is a reference to what the Palico says when he can't find anything -->
-      
-  <string name="general_none">なし</string>
-   
-  <!-- Empty message for skill/charms subsections -->
-      
-  <!-- Rank -->
-      
-  <string name="rank_title">ランク</string>
-      
-  <string name="rank_short_low">LR</string>
-      
-  <string name="rank_short_high">人事</string>
-      
-  <string name="rank_short_master">氏</string>
-      
-  <string name="rank_short_all">どれか</string>
-   
-  <!-- null rank -->
-      
-  <string name="rank_low">低</string>
-      
-  <string name="rank_high">高い</string>
-      
-  <string name="rank_master">主人</string>
-      
-  <string name="rank_full_low">下位</string>
-      
-  <string name="rank_full_high">高いランク</string>
-      
-  <string name="rank_full_master">マスターランク</string>
-      
-  <!-- Common Formatted Strings -->
-      
-  <string name="format_quantity_none">%1$d</string>
-   
-  <!-- Example: 1 -->
-      
-  <string name="format_quantity_x">x %1$d</string>
-   
-  <!-- Example: x 2 -->
-      
-  <string name="format_rarity">レア度%1$d</string>
-   
-  <!-- Example: Rarity 2 -->
-      
-  <string name="format_plus">%1$+d</string>
-   
-  <!-- Example: +5 -->
-      
-  <string name="format_percentage">%1$s%%</string>
-   
-  <!-- Example: 20%-->
+<resources>
 
-  <string name="format_percentage_unknown">\??％</string>
-      
-  <string name="format_plus_percentage">%1$+d%%</string>
-   
-  <!-- Example: +20%-->
-      
-  <string name="format_element">%1$d（%2$d最大）</string>
-      
-  <string name="format_element_hidden">（%1$d）（%2$d最大）</string>
-      
-  <!-- Ailments -->
-      
-  <string name="ailment_roar_small">咆哮（小）</string>
-      
-  <string name="ailment_roar_large">咆哮（大）</string>
-      
-  <string name="ailment_roar_extreme">咆哮（極端）</string>
-      
-  <string name="ailment_wind_small">風圧（小）</string>
-      
-  <string name="ailment_wind_large">風圧（大）</string>
-      
-  <string name="ailment_wind_extreme">風圧（極度）</string>
-      
-  <string name="ailment_tremor_small">振戦（小）</string>
-      
-  <string name="ailment_tremor_large">振戦（大）</string>
-      
-  <string name="ailment_tremor_extreme">振戦（極度）</string>
-      
-  <string name="ailment_defensedown">ディフェンスダウン</string>
-      
-  <string name="ailment_fireblight">火傷病</string>
-      
-  <string name="ailment_waterblight">WaterBlight</string>
-      
-  <string name="ailment_thunderblight">サンダーブライト</string>
-      
-  <string name="ailment_iceblight">IceBlight</string>
-      
-  <string name="ailment_dragonblight">DragonBlight</string>
-      
-  <string name="ailment_blastblight">BlastBlight</string>
-      
-  <string name="ailment_poison">毒</string>
-      
-  <string name="ailment_sleep">睡眠</string>
-      
-  <string name="ailment_paralysis">麻痺</string>
-      
-  <string name="ailment_bleed">ブリード</string>
-      
-  <string name="ailment_stun">気絶</string>
-      
-  <string name="ailment_mud">泥</string>
-      
-  <string name="ailment_effluvia">流出物</string>
-      
-  <!-- Insect glaive extract -->
-      
-  <string name="extract_orange">オレンジ</string>
-      
-  <string name="extract_red">赤</string>
-      
-  <string name="extract_white">白い</string>
-      
-  <string name="extract_green">緑</string>
-      
-  <string name="extract_orange_abbr">ORN</string>
-      
-  <string name="extract_red_abbr">赤</string>
-      
-  <string name="extract_white_abbr">WHT</string>
-      
-  <string name="extract_green_abbr">GRN</string>
-      
-  <!-- Elements and statuses -->
-      
-  <string name="element_fire">火</string>
-      
-  <string name="element_water">水</string>
-      
-  <string name="element_thunder">サンダー</string>
-      
-  <string name="element_ice">氷</string>
-      
-  <string name="element_dragon">ドラゴン</string>
-      
-  <string name="element_non_elemental">非エレメンタル</string>
-      
-  <string name="status_poison">毒</string>
-      
-  <string name="status_sleep">睡眠</string>
-      
-  <string name="status_paralysis">麻痺</string>
-      
-  <string name="status_blast">ブラスト</string>
-      
-  <!-- Section Headers -->
-      
-  <!-- These aren't tied to a particular screen so they can be used anywhere -->
-      
-  <string name="header_habitat">ハビタ</string>
-      
-  <string name="header_weakness">弱点</string>
-      
-  <string name="header_ailments">病気</string>
-      
-  <string name="header_hitzone_physical">物理的</string>
-      
-  <string name="header_hitzone_elemental">エレメンタル</string>
-      
-  <string name="header_break">休憩</string>
-      
-  <string name="header_crafting">クラフト</string>
-      
-  <string name="header_gathering">収集</string>
-      
-  <string name="header_rewards">モンスターリワード</string>
-      
-  <string name="header_quest_rewards">クエスト報酬</string>
-      
-  <string name="header_armor">鎧</string>
-      
-  <string name="header_charms">チャーム</string>
-      
-  <string name="header_weapons">兵器</string>
-      
-  <string name="header_decorations">装飾</string>
-      
-  <string name="header_required_materials">必要な材料</string>
-      
-  <string name="header_required_materials_upgrade">必要な材料（アップグレード）</string>
-      
-  <string name="header_required_materials_craft">必要な材料（クラフト）</string>
-      
-  <string name="header_skills">スキル</string>
-      
-  <string name="header_set_bonuses">ボーナスを設定する</string>
-      
-  <string name="header_skill">スキル</string>
-      
-  <string name="header_drop">落とす</string>
-      
-  <string name="header_upgrade_from">からのアップグレード：</string>
-      
-  <string name="header_components">コンポーネント</string>
-      
-  <string name="header_armor_set_pieces">アーマーセットピース</string>
-      
-  <string name="header_armor_set_skills">アーマーセットスキル</string>
-      
-  <string name="header_active_set_bonuses">アクティブセットボーナス</string>
-      
-  <string name="header_active_skills">アクティブスキル</string>
-      
-  <string name="header_description">説明</string>
-      
-  <!-- ####################### -->
-      
-  <!-- ## Settings and Meta ## -->
-      
-  <!-- ####################### -->
-      
-  <string name="title_about">約</string>
-      
-  <string name="title_settings">設定</string>
-      
-  <string name="title_changelog">変更ログ</string>
-      
-  <string name="label_whats_new">新着情報！</string>
-      
-  <string name="label_rate_app">私たちのアプリを評価してください！</string>
-      
-  <string name="action_ok">OK</string>
-      
-  <string name="preference_data_language">データ言語</string>
-      
-  <string name="preference_weapons_attack_values">武器の真の攻撃を表示する</string>
-      
-  <string name="preference_data_language_description">%sを使用して名前と説明を表示します。これを変更すると、アプリが再起動します。</string>
-      
-  <string name="preference_weapons_attack_values_description">ゲームは肥大化した攻撃値を示しています。これを有効にすると、代わりに真の攻撃値が表示されます。これは、ダメージ式で使用されるものです。</string>
-      
-  <string name="preference_language_default">デフォルト</string>
-      
-  <!-- ################### -->
-      
-  <!-- ## FEATURE MENUS ## -->
-      
-  <!-- ################### -->
-      
-  <!-- ############## -->
-      
-  <!-- ## Monsters ## -->
-      
-  <!-- ############## -->
-      
-  <string name="title_monster_list">モンスター</string>
-   
-  <!-- Feature name used in the action bar on top -->
-      
-  <!-- Tab Headers -->
-      
-  <string name="tab_monsters_list_small">小さい</string>
-      
-  <string name="tab_monsters_list_large">大</string>
-      
-  <string name="tab_monsters_detail_summary">概要</string>
-      
-  <string name="tab_monsters_detail_damage">ダメージ</string>
-      
-  <string name="tab_monsters_detail_rewards_master_rank">マスターランク</string>
-      
-  <string name="tab_monsters_detail_rewards_high_rank">高いランク</string>
-      
-  <string name="tab_monsters_detail_rewards_low_rank">下位</string>
-      
-  <!-- ################ -->
-      
-  <!-- ## ITEMS MENU ## -->
-      
-  <!-- ################ -->
-      
-  <string name="title_item_list">アイテム</string>
-   
-  <!-- Feature name used in the action bar on top -->
-      
-  <!-- Tab Headers -->
-      
-  <string name="tab_item_list_items">アイテム</string>
-      
-  <string name="tab_item_list_materials">材料</string>
-      
-  <string name="tab_item_list_ammo">弾薬</string>
-      
-  <string name="tab_item_list_misc">その他</string>
-      
-  <string name="tab_item_detail_summary">概要</string>
-      
-  <string name="tab_item_detail_usage">使用法</string>
-      
-  <string name="tab_item_detail_acquisition">取得する</string>
-      
-  <!-- General Strings -->
-      
-  <string name="item_price_buy">購入</string>
-      
-  <string name="item_price_sell">売る</string>
-      
-  <string name="item_capacity_carry">運ぶ</string>
-      
-  <string name="item_rarity">希少性</string>
-      
-  <!-- ######################## -->
-      
-  <!-- ## ITEM CRAFTING MENU ## -->
-      
-  <!-- ######################## -->
-      
-  <string name="item_crafting_list_title">アイテムクラフト</string>
-  <!-- Feature name used in the action bar on top -->
-      
-  <!-- General Strings -->
-      
-  <string name="item_crafting_yield">x %1$d</string>
-      
-  <string name="item_crafting_source_condition_reward">%1$s %2$s</string>
-      
-  <!-- ################# -->
-      
-  <!-- ## WEAPON MENU ## -->
-      
-  <!-- ################# -->
-      
-  <string name="weapon_final_only">最後の</string>
-      
-  <string name="weapon_final_upgrades">最後の</string>
-      
-  <!-- Weapon List Entries -->
-      
-  <string name="title_weapons">兵器</string>
-      
-  <string name="title_great_sword">グレートソード</string>
-      
-  <string name="title_long_sword">ロングソード</string>
-      
-  <string name="title_sword_and_shield">ソードアンドシールド</string>
-      
-  <string name="title_dual_blades">デュアルブレード</string>
-      
-  <string name="title_hammer">ハンマー</string>
-      
-  <string name="title_hunting_horn">ハンティングホーン</string>
-      
-  <string name="title_lance">ランス</string>
-      
-  <string name="title_gunlance">ガンランス</string>
-      
-  <string name="title_switch_axe">スイッチアックス</string>
-      
-  <string name="title_charge_blade">チャージブレード</string>
-      
-  <string name="title_insect_glaive">昆虫グレイブ</string>
-      
-  <string name="title_light_bowgun">ライトボウガン</string>
-      
-  <string name="title_heavy_bowgun">ヘビーボウガン</string>
-      
-  <string name="title_bow">弓</string>
-      
-  <!-- Tab Headers -->
-      
-  <string name="tab_weapon_normal">正常</string>
-      
-  <string name="tab_weapon_kulve">カルベ</string>
-      
-  <string name="tab_weapon_detail">詳細</string>
-      
-  <string name="tab_weapon_tree">家族</string>
-      
-  <string name="filter_title_show_only">表示のみ</string>
-      
-  <string name="filter_title_sort_by">並び替え</string>
-      
-  <!-- General Strings -->
-      
-  <string name="weapon_attack">攻撃</string>
-      
-  <string name="weapon_attack_true">攻撃（True）</string>
-      
-  <string name="weapon_sharpness">シャープネス</string>
-      
-  <string name="weapon_element">素子</string>
-      
-  <string name="weapon_element_none">なし</string>
-      
-  <string name="weapon_defense">防衛</string>
-      
-  <string name="weapon_affinity">親和性</string>
-      
-  <string name="weapon_handicraft">（手工芸品付き）</string>
-      
-  <string name="weapon_elderseal">エルダーシール</string>
-      
-  <string name="weapon_elderseal_none">なし</string>
-      
-  <string name="weapon_elderseal_low">低</string>
-      
-  <string name="weapon_elderseal_average">平均</string>
-      
-  <string name="weapon_elderseal_high">高い</string>
-      
-  <string name="weapon_blade_phial_type">バイアルタイプ</string>
-      
-  <string name="weapon_phial_exhaust">排気</string>
-      
-  <string name="weapon_phial_power">力</string>
-      
-  <string name="weapon_phial_poison">毒</string>
-      
-  <string name="weapon_phial_dragon">ドラゴン</string>
-      
-  <string name="weapon_phial_power_element">パワーエレメント</string>
-      
-  <string name="weapon_phial_paralysis">麻痺</string>
-      
-  <string name="weapon_phial_impact">影響</string>
-      
-  <string name="weapon_kinsect_bonus">キンセクトボーナス</string>
-      
-  <string name="weapon_kinsect_bonus_sever">切断</string>
-      
-  <string name="weapon_kinsect_bonus_speed">速度</string>
-      
-  <string name="weapon_kinsect_bonus_element">素子</string>
-      
-  <string name="weapon_kinsect_bonus_health">健康</string>
-      
-  <string name="weapon_kinsect_bonus_stamina">元気</string>
-      
-  <string name="weapon_kinsect_bonus_blunt">鈍い</string>
-      
-  <string name="weapon_kinsect_bonus_spirit_strength">精神/強さ</string>
-      
-  <string name="weapon_kinsect_bonus_stamina_health">スタミナ/健康</string>
-      
-  <string name="weapon_gunlance_shelling">砲撃</string>
-      
-  <string name="weapon_gunlance_shelling_long">長いです</string>
-      
-  <string name="weapon_gunlance_shelling_normal">正常</string>
-      
-  <string name="weapon_gunlance_shelling_wide">ワイド</string>
-      
-  <string name="weapon_hunting_horn_notes">ノート</string>
-      
-  <string name="weapon_hunting_horn_melodies">メロディー</string>
-      
-  <string name="weapon_hunting_horn_effect1">効果 1</string>
-      
-  <string name="weapon_hunting_horn_effect2">効果 2</string>
-      
-  <string name="weapon_hunting_horn_duration">デュレーション</string>
-      
-  <string name="weapon_hunting_horn_extension">拡張</string>
-      
-  <string name="weapon_bow_coatings">コーティング</string>
-      
-  <string name="weapon_bow_coatings_paralysis">パラ</string>
-      
-  <string name="weapon_bow_coatings_sleep">睡眠</string>
-      
-  <string name="weapon_bow_coatings_power">力</string>
-      
-  <string name="weapon_bow_coatings_poison">毒</string>
-      
-  <string name="weapon_bow_coatings_close_range">閉じる</string>
-      
-  <string name="weapon_bow_coatings_blast">ブラスト</string>
-      
-  <string name="weapon_bowgun_deviation">偏差</string>
-      
-  <string name="weapon_bowgun_special_ammo">特殊弾薬</string>
-      
-  <string name="weapon_bowgun_special_ammo_wyvernblast">ワイバーンブラスト</string>
-      
-  <string name="weapon_bowgun_special_ammo_wyvernheart">ワイバーンハート</string>
-      
-  <string name="weapon_bowgun_special_ammo_wyvernsnipe">Wyvernsnipe</string>
-      
-  <string name="weapon_bowgun_ammo_types">弾薬の種類</string>
-      
-  <string name="weapon_bowgun_ammo_normal">通常の%1$d</string>
-      
-  <string name="weapon_bowgun_ammo_pierce">ピアス%1$d</string>
-      
-  <string name="weapon_bowgun_ammo_spread">スプレッド%1$d</string>
-      
-  <string name="weapon_bowgun_ammo_sticky">スティッキー%1$d</string>
-      
-  <string name="weapon_bowgun_ammo_cluster">クラスター%1$d</string>
-      
-  <string name="weapon_bowgun_ammo_recover">%1$dを回復する</string>
-      
-  <string name="weapon_bowgun_ammo_poison">毒%1$d</string>
-      
-  <string name="weapon_bowgun_ammo_paralysis">麻痺%1$d</string>
-      
-  <string name="weapon_bowgun_ammo_sleep">スリープ%1$d</string>
-      
-  <string name="weapon_bowgun_ammo_exhaust">排気%1$d</string>
-      
-  <string name="weapon_bowgun_ammo_flaming">炎上</string>
-      
-  <string name="weapon_bowgun_ammo_thunder">サンダー</string>
-      
-  <string name="weapon_bowgun_ammo_dragon">ドラゴン</string>
-      
-  <string name="weapon_bowgun_ammo_water">水</string>
-      
-  <string name="weapon_bowgun_ammo_freeze">氷結</string>
-      
-  <string name="weapon_bowgun_ammo_slicing">スライス</string>
-      
-  <string name="weapon_bowgun_ammo_wyvern">ワイバーン</string>
-      
-  <string name="weapon_bowgun_ammo_demon">悪魔</string>
-      
-  <string name="weapon_bowgun_ammo_armor">鎧</string>
-      
-  <string name="weapon_bowgun_ammo_tranq">トランク</string>
-      
-  <string name="weapon_bowgun_ammo_shot_normal">正常</string>
-      
-  <string name="weapon_bowgun_ammo_shot_rapid_fire">ラピッド</string>
-      
-  <string name="weapon_bowgun_ammo_shot_auto_reload">自動リロード</string>
-      
-  <string name="weapon_bowgun_ammo_shot_wyvern">ワイバーン</string>
-      
-  <string name="weapon_bowgun_ammo_reload_very_slow">V. 遅い</string>
-      
-  <string name="weapon_bowgun_ammo_reload_slow">スロー</string>
-      
-  <string name="weapon_bowgun_ammo_reload_normal">正常</string>
-      
-  <string name="weapon_bowgun_ammo_reload_fast">速い</string>
-      
-  <string name="weapon_bowgun_ammo_reload_very_fast">V. 速い</string>
-      
-  <string name="weapon_bowgun_shot_type_rcl">タイプ+リコイル</string>
-      
-  <string name="weapon_bowgun_capacity">キャップ</string>
-      
-  <string name="weapon_bowgun_reload">リロード</string>
-      
-  <string name="weapon_bowgun_recoil">RCL</string>
-      
-  <!-- ################ -->
-      
-  <!-- ## ARMOR MENU ## -->
-      
-  <!-- ################ -->
-      
-  <string name="title_armor">鎧</string>
-      
-  <!-- Tab headers -->
-      
-  <string name="tab_armor_detail">詳細</string>
-      
-  <string name="tab_armor_set_summary">アーマーセットの詳細</string>
-      
-  <!-- General Strings -->
-      
-  <string name="armor_defense_value">%1$d-%2$d（%3$d）</string>
-   
-  <!-- Example: 32 - 64 (70) -->
-      
-  <string name="armor_detail_piece_bonus">%1$d-ピースボーナス：</string>
-   
-  <!-- Examples: 1-piece bonus: -->
-      
-  <string name="armor_detail_vs_fire">対火</string>
-      
-  <string name="armor_detail_vs_water">対水</string>
-      
-  <string name="armor_detail_vs_thunder">対サンダー</string>
-      
-  <string name="armor_detail_vs_ice">対氷</string>
-      
-  <string name="armor_detail_vs_dragon">対ドラゴン</string>
-      
-  <string name="armor_detail_defense">防衛</string>
-      
-  <string name="armor_detail_slots">スロット</string>
-      
-  <!-- ################# -->
-      
-  <!-- ## SKILLS MENU ## -->
-      
-  <!-- ################# -->
-      
-  <string name="title_skills">スキル</string>
-      
-  <!-- General Strings -->
-      
-  <string name="title_skill_level">レベル</string>
-      
-  <string name="level_qty">レベル%1$d</string>
-   
-  <!-- Example: Level 1 -->
-      
-  <string name="level_short_qty">Lv %1$d</string>
-   
-  <!-- Example: Lv 2 -->
-      
-  <!-- ###################### -->
-      
-  <!-- ## DECORATIONS MENU ## -->
-      
-  <!-- ###################### -->
-      
-  <string name="title_decorations">装飾</string>
-      
-  <!-- General Strings -->
-      
-  <string name="decorations_chance_mysterious">ミステリアスなフェイストーン</string>
-      
-  <string name="decorations_chance_glowing">輝くフェイストーン</string>
-      
-  <string name="decorations_chance_worn">摩耗したフェイストーン</string>
-      
-  <string name="decorations_chance_warped">ワープフェイストーン</string>
-      
-  <string name="decorations_chance_ancient">古代のフェイストーン</string>
-      
-  <string name="decorations_chance_carved">刻まれたフェイストーン</string>
-      
-  <string name="decorations_chance_sealed">封印されたフェイストーン</string>
-      
-  <!-- ################# -->
-      
-  <!-- ## CHARMS MENU ## -->
-      
-  <!-- ################# -->
-      
-  <string name="title_charms">チャーム</string>
-      
-  <!-- #################### -->
-      
-  <!-- ## LOCATIONS MENU ## -->
-      
-  <!-- #################### -->
-      
-  <string name="title_locations">場所</string>
-      
-  <!-- Section Headers -->
-      
-  <string name="header_location_area">エリア%1$d</string>
-      
-  <string name="header_location_base_camps">ベースキャンプ</string>
-      
-  <!-- ################ -->
-      
-  <!-- ## QUEST MENU ## -->
-      
-  <!-- ################ -->
-      
-  <string name="title_quests">クエスト</string>
-      
-  <string name="quest_category_assigned">割り当て済み</string>
-      
-  <string name="quest_category_optional">オプション</string>
-      
-  <string name="quest_category_event">イベント</string>
-      
-  <string name="quest_category_arena">アリーナ</string>
-      
-  <string name="quest_category_challenge">チャレンジ</string>
-      
-  <string name="quest_category_special">特別任務</string>
-      
-  <string name="quest_category_special_abbr">SP</string>
-      
-  <string name="quest_category_combined">%s%s %d★</string>
-      
-  <string name="tab_quest_summary">概要</string>
-      
-  <string name="tab_quest_rewards">報酬</string>
-      
-  <string name="quest_group">グループ%s</string>
-      
-  <string name="quest_label_objective">目的</string>
-      
-  <!-- ################ -->
-      
-  <!-- ## KINSECT MENU ## -->
-      
-  <!-- ################ -->
-      
-  <string name="title_kinsects">Kinsects</string>
-      
-  <string name="kinsect_attack_type">攻撃タイプ</string>
-      
-  <string name="kinsect_attack_type_sever">切断</string>
-      
-  <string name="kinsect_attack_type_blunt">鈍い</string>
-      
-  <string name="kinsect_dust_effect">粉塵効果</string>
-      
-  <string name="kinsect_dust_effect_poison">毒</string>
-      
-  <string name="kinsect_dust_effect_paralysis">麻痺</string>
-      
-  <string name="kinsect_dust_effect_heal">癒す</string>
-      
-  <string name="kinsect_dust_effect_blast">ブラスト</string>
-      
-  <string name="kinsect_power">力</string>
-      
-  <string name="kinsect_speed">速度</string>
-      
-  <string name="kinsect_heal">癒す</string>
-      
-  <string name="tab_kinsect_detail">詳細</string>
-      
-  <string name="tab_kinsect_tree">家族</string>
-      
-  <string name="kinsect_final_upgrades">最後の</string>
-      
-  <!-- ################# -->
-      
-  <!-- ## SEARCH MENU ## -->
-      
-  <!-- ################# -->
-      
-  <!-- General Strings -->
-      
-  <!-- Simple descriptor for data types (including modified descriptors) -->
-      
-  <string name="type_location">ロケーション</string>
-      
-  <string name="type_monster">モンスター</string>
-      
-  <string name="type_monster_small">モンスター（小）</string>
-      
-  <string name="type_monster_large">モンスター（大）</string>
-      
-  <string name="type_skilltree">スキルツリー</string>
-      
-  <string name="type_decoration">装飾</string>
-      
-  <string name="type_charm">チャーム</string>
-      
-  <string name="type_armor">鎧</string>
-      
-  <string name="type_weapon">武器</string>
-      
-  <string name="type_item">項目</string>
-      
-  <string name="type_item_basic">項目</string>
-      
-  <string name="type_item_material">材料</string>
-      
-  <string name="type_item_ammo">弾薬</string>
-      
-  <string name="type_item_misc">その他のアイテム</string>
-      
-  <string name="type_quest">クエスト</string>
-      
-  <string name="type_kinsect">Kinsect</string>
-      
-  <!-- #################### -->
-      
-  <!-- ## BOOKMARKS MENU ## -->
-      
-  <!-- #################### -->
-      
-  <string name="title_bookmarks">ブックマーク</string>
-      
-  <!-- #################### -->
-      
-  <!-- ## TOOLS MENU ## -->
-      
-  <!-- #################### -->
-      
-  <string name="title_tools">ツール</string>
-      
-  <string name="tool_effect_duration">効果持続時間</string>
-      
-  <string name="tool_effect_recharge_time">充電時間</string>
-      
-  <string name="tool_slots">スロット</string>
-      
-  <string name="tool_type">タイプ</string>
-      
-  <string name="tool_mantle">マントル</string>
-      
-  <string name="tool_booster">増幅器</string>
-      
-  <!-- ################# -->
-      
-  <!-- ## USER EQUIPMENT SET MENU ## -->
-      
-  <!-- ################# -->
-      
-  <string name="title_workshop">ワークショップ</string>
-      
-  <string name="title_workshop_armor_selector">アーマーセレクター</string>
-      
-  <string name="title_workshop_charm_selector">チャームセレクター</string>
-      
-  <string name="title_workshop_weapon_selector">武器セレクター</string>
-      
-  <string name="title_workshop_decoration_selector">デコレーションセレクター</string>
-      
-  <string name="title_workshop_tool_selector">ツールセレクター</string>
-      
-  <string name="tab_workshop_builder_summary">概要</string>
-      
-  <string name="tab_workshop_builder_equipment">装置</string>
-      
-  <string name="user_equipment_set_new_set">新しいセット</string>
-      
-  <string name="user_equipment_set_create_set">+セットを作成する</string>
-      
-  <string name="user_equipment_set_no_equipment">機器なし</string>
-      
-  <string name="user_equipment_set_no_decoration">装飾なし</string>
-      
-  <string name="user_equipment_set_no_skill">スキルなし</string>
-      
-  <string name="user_equipment_delete_set">セットを削除</string>
-      
-  <string name="user_equipment_set_deleted">%1$sが削除されました</string>
-      
-  <string name="user_equipment_new_set_name">セットの名前を変更</string>
-      
-  <string name="user_equipment_apply">適用する</string>
-      
-  <string name="user_equipment_cancel">キャンセル</string>
-      
-  <string name="user_equipment_set_filter_name">名前</string>
-      
-  <string name="user_equipment_set_filter_slot_level">スロットレベル</string>
-      
-  <string name="user_equipment_set_filter_elemental_defense">エレメンタルディフェンス</string>
-      
-  <string name="user_equipment_set_filter_add_skill">新しいスキルを追加する</string>
-      
-  <!-- ################ -->
-      
-  <!-- ## ABOUT MENU ## -->
-      
-  <!-- ################ -->
-      
-  <string name="about_body">Gathering Hall Studios は、モンスターハンターシリーズ向けの高品質アプリの構築に専念するデザイナーと開発者のオープンソースチームです。参加または貢献をご希望の場合は、いつでもご利用いただけます。contact\@gatheringhallstudios.com までお問い合わせいただくか、Discord にアクセスしてください。また、Github にアクセスして、アプリデータプロジェクトのソースコードを表示することもできます。</string>
-  
+    <!-- ############ -->
+    <!-- ## COMMON ## -->
+    <!-- ############ -->
+
+    <!-- This covers strings that are meant to be used across the app -->
+    <string name="app_name">MHWorld データベース</string>
+    <string name="app_name_icon">MHWDB</string>
+
+    <string name="action_search">検索</string>
+    <string name="action_bookmark">ブックマーク</string>
+    <string name="action_filter">フィルター</string>
+    <string name="action_clear">クリア</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_apply">適用する</string>
+    <string name="action_undo">元に戻す</string>
+
+    <string name="general_no_data">ここには何もありません、Meowster…</string> <!-- Generic message that is shown when a menu/tab does not contain any data. This is a reference to what the Palico says when he can't find anything -->
+    <string name="general_none">なし</string> <!-- Empty message for skill/charms subsections -->
+
+    <!-- Rank -->
+    <string name="rank_title">ランク</string>
+    <string name="rank_short_low">下位</string>
+    <string name="rank_short_high">上位</string>
+    <string name="rank_short_master">マスター</string>
+    <string name="rank_short_all">ALL</string> <!-- null rank -->
+    <string name="rank_low">下位</string>
+    <string name="rank_high">上位</string>
+    <string name="rank_master">マスター</string>
+    <string name="rank_full_low">下位</string>
+    <string name="rank_full_high">上位</string>
+    <string name="rank_full_master">マスターランク</string>
+
+    <!-- Common Formatted Strings -->
+    <string name="format_quantity_none">%1$d</string> <!-- Example: 1 -->
+    <string name="format_quantity_x">x %1$d</string> <!-- Example: x 2 -->
+    <string name="format_rarity">レア度 %1$d</string> <!-- Example: Rarity 2 -->
+    <string name="format_plus">%1$+d</string> <!-- Example: +5 -->
+    <string name="format_percentage">%1$s%%</string> <!-- Example: 20%-->
+    <string name="format_percentage_unknown">\??%</string>
+    <string name="format_plus_percentage">%1$+d%%</string> <!-- Example: +20%-->
+    <string name="format_element">%1$d (%2$d 最大)</string>
+    <string name="format_element_hidden">(%1$d) (%2$d 最大)</string>
+
+    <!-- Ailments -->
+    <string name="ailment_roar_small">咆哮 (小)</string>
+    <string name="ailment_roar_large">咆哮 (大)</string>
+    <string name="ailment_roar_extreme">咆哮 (極大)</string>
+    <string name="ailment_wind_small">風圧 (小)</string>
+    <string name="ailment_wind_large">風圧 (大)</string>
+    <string name="ailment_wind_extreme">風圧 (極大)</string>
+    <string name="ailment_tremor_small">振動 (小)</string>
+    <string name="ailment_tremor_large">振動 (大)</string>
+    <string name="ailment_tremor_extreme">振動 (極大)</string>
+    <string name="ailment_defensedown">防御力DOWN</string>
+    <string name="ailment_fireblight">火属性やられ</string>
+    <string name="ailment_waterblight">水属性やられ</string>
+    <string name="ailment_thunderblight">雷属性やられ</string>
+    <string name="ailment_iceblight">氷属性やられ</string>
+    <string name="ailment_dragonblight">龍属性やられ</string>
+    <string name="ailment_blastblight">爆破やられ</string>
+    <string name="ailment_poison">毒/猛毒</string>
+    <string name="ailment_sleep">睡眠</string>
+    <string name="ailment_paralysis">麻痺</string>
+    <string name="ailment_bleed">裂傷</string>
+    <string name="ailment_stun">気絶</string>
+    <string name="ailment_mud">泥まみれ</string>
+    <string name="ailment_effluvia">瘴気侵蝕状態</string>
+
+    <!-- Insect glaive extract -->
+    <string name="extract_orange">橙</string>
+    <string name="extract_red">赤</string>
+    <string name="extract_white">白</string>
+    <string name="extract_green">緑</string>
+    <string name="extract_orange_abbr">橙</string>
+    <string name="extract_red_abbr">赤</string>
+    <string name="extract_white_abbr">白</string>
+    <string name="extract_green_abbr">緑</string>
+
+    <!-- Elements and statuses -->
+    <string name="element_fire">火</string>
+    <string name="element_water">水</string>
+    <string name="element_thunder">雷</string>
+    <string name="element_ice">氷</string>
+    <string name="element_dragon">龍</string>
+    <string name="element_non_elemental">無属性</string>
+    <string name="status_poison">毒</string>
+    <string name="status_sleep">睡眠</string>
+    <string name="status_paralysis">麻痺</string>
+    <string name="status_blast">爆破</string>
+
+    <!-- Section Headers -->
+    <!-- These aren't tied to a particular screen so they can be used anywhere -->
+    <string name="header_habitat">生息域</string>
+    <string name="header_weakness">弱点</string>
+    <string name="header_ailments">やられ</string>
+    <string name="header_hitzone_physical">肉質</string>
+    <string name="header_hitzone_elemental">弱点属性</string>
+    <string name="header_break">耐久値・エキス</string>
+    <string name="header_crafting">生産</string>
+    <string name="header_gathering">採取</string>
+    <string name="header_rewards">モンスター報酬</string>
+    <string name="header_quest_rewards">クエスト報酬</string>
+    <string name="header_armor">防具</string>
+    <string name="header_charms">護石</string>
+    <string name="header_weapons">武器</string>
+    <string name="header_decorations">装飾品</string>
+    <string name="header_required_materials">必要素材</string>
+    <string name="header_required_materials_upgrade">必要素材（強化）</string>
+    <string name="header_required_materials_craft">必要素材（生産）</string>
+    <string name="header_skills">スキル</string>
+    <string name="header_set_bonuses">発動スキル</string>
+    <string name="header_skill">スキル</string>
+    <string name="header_drop">ドロップ</string>
+    <string name="header_upgrade_from">強化元:</string>
+    <string name="header_components">素材</string>
+    <string name="header_armor_set_pieces">シリーズ</string>
+    <string name="header_armor_set_skills">スキル合計</string>
+    <string name="header_active_set_bonuses">シリーズスキル</string>
+    <string name="header_active_skills">発動スキル</string>
+    <string name="header_description">説明</string>
+
+    <!-- ####################### -->
+    <!-- ## Settings and Meta ## -->
+    <!-- ####################### -->
+
+    <string name="title_about">About</string>
+    <string name="title_settings">設定</string>
+    <string name="title_changelog">変更ログ</string>
+    <string name="label_whats_new">新着情報！</string>
+    <string name="label_rate_app">アプリを評価する</string>
+    <string name="action_ok">OK</string>
+    <string name="preference_data_language">データの言語</string>
+    <string name="preference_weapons_attack_values">武器の真の攻撃力を表示する</string>
+    <string name="preference_data_language_description">
+        名前と説明を%sで表示する。
+        \n変更するとアプリが再起動します。
+    </string>
+    <string name="preference_weapons_attack_values_description">
+        ゲーム内では攻撃力が肥大化して表示さています。これを有効にすると
+        ダメージ計算式で使用される実際の攻撃値を表示します。
+    </string>
+    <string name="preference_language_default">デフォルト</string>
+
+    <!-- ################### -->
+    <!-- ## FEATURE MENUS ## -->
+    <!-- ################### -->
+
+    <!-- ############## -->
+    <!-- ## Monsters ## -->
+    <!-- ############## -->
+    <string name="title_monster_list">モンスター</string> <!-- Feature name used in the action bar on top -->
+
+    <!-- Tab Headers -->
+    <string name="tab_monsters_list_small">小型</string>
+    <string name="tab_monsters_list_large">大型</string>
+    <string name="tab_monsters_detail_summary">詳細</string>
+    <string name="tab_monsters_detail_damage">ダメージ</string>
+    <string name="tab_monsters_detail_rewards_master_rank">マスターランク</string>
+    <string name="tab_monsters_detail_rewards_high_rank">上位</string>
+    <string name="tab_monsters_detail_rewards_low_rank">下位</string>
+
+    <!-- ################ -->
+    <!-- ## ITEMS MENU ## -->
+    <!-- ################ -->
+
+    <string name="title_item_list">アイテム</string> <!-- Feature name used in the action bar on top -->
+
+    <!-- Tab Headers -->
+    <string name="tab_item_list_items">アイテム</string>
+    <string name="tab_item_list_materials">素材</string>
+    <string name="tab_item_list_ammo">弾/ビン</string>
+    <string name="tab_item_list_misc">その他</string>
+    <string name="tab_item_detail_summary">詳細</string>
+    <string name="tab_item_detail_usage">用途</string>
+    <string name="tab_item_detail_acquisition">入手</string>
+
+    <!-- General Strings -->
+    <string name="item_price_buy">買値</string>
+    <string name="item_price_sell">売値</string>
+    <string name="item_capacity_carry">所持数</string>
+    <string name="item_rarity">レア度</string>
+
+    <!-- ######################## -->
+    <!-- ## ITEM CRAFTING MENU ## -->
+    <!-- ######################## -->
+
+    <string name="item_crafting_list_title">調合</string><!-- Feature name used in the action bar on top -->
+
+    <!-- General Strings -->
+    <string name="item_crafting_yield">\x %1$d</string>
+    <string name="item_crafting_source_condition_reward">%1$s %2$s</string>
+
+    <!-- ################# -->
+    <!-- ## WEAPON MENU ## -->
+    <!-- ################# -->
+
+    <string name="weapon_final_only">最終派生</string>
+    <string name="weapon_final_upgrades">最終派生</string>
+
+    <!-- Weapon List Entries -->
+    <string name="title_weapons">武器</string>
+    <string name="title_great_sword">大剣</string>
+    <string name="title_long_sword">太刀</string>
+    <string name="title_sword_and_shield">片手剣</string>
+    <string name="title_dual_blades">双剣</string>
+    <string name="title_hammer">ハンマー</string>
+    <string name="title_hunting_horn">狩猟笛</string>
+    <string name="title_lance">ランス</string>
+    <string name="title_gunlance">ガンランス</string>
+    <string name="title_switch_axe">スラッシュアックス</string>
+    <string name="title_charge_blade">チャージアックス</string>
+    <string name="title_insect_glaive">操虫棍</string>
+    <string name="title_light_bowgun">ライトボウガン</string>
+    <string name="title_heavy_bowgun">ヘビーボウガン</string>
+    <string name="title_bow">弓</string>
+
+    <!-- Tab Headers -->
+    <string name="tab_weapon_normal">ノーマル</string>
+    <string name="tab_weapon_kulve">鑑定武器</string>
+    <string name="tab_weapon_detail">詳細</string>
+    <string name="tab_weapon_tree">派生</string>
+
+    <string name="filter_title_show_only">絞り込み</string>
+    <string name="filter_title_sort_by">並び替え</string>
+
+    <!-- General Strings -->
+    <string name="weapon_attack">攻撃力</string>
+    <string name="weapon_attack_true">攻撃力 (実際)</string>
+    <string name="weapon_sharpness">切れ味</string>
+    <string name="weapon_element">属性</string>
+    <string name="weapon_element_none">なし</string>
+    <string name="weapon_defense">防御</string>
+    <string name="weapon_affinity">会心率</string>
+    <string name="weapon_handicraft">(with Handicraft)</string>
+    <string name="weapon_elderseal">龍封力</string>
+    <string name="weapon_elderseal_none">なし</string>
+    <string name="weapon_elderseal_low">小</string>
+    <string name="weapon_elderseal_average">中</string>
+    <string name="weapon_elderseal_high">大</string>
+
+    <string name="weapon_blade_phial_type">ビンの種類</string>
+    <string name="weapon_phial_exhaust">滅気ビン</string>
+    <string name="weapon_phial_power">強撃ビンビン</string>
+    <string name="weapon_phial_poison">毒ビン</string>
+    <string name="weapon_phial_dragon">滅龍ビン</string>
+    <string name="weapon_phial_power_element">強属性ビン</string>
+    <string name="weapon_phial_paralysis">麻痺ビン</string>
+    <string name="weapon_phial_impact">榴弾ビン</string>
+
+    <string name="weapon_kinsect_bonus">猟虫ボーナス</string>
+    <string name="weapon_kinsect_bonus_sever">切断</string>
+    <string name="weapon_kinsect_bonus_speed">スピード強化</string>
+    <string name="weapon_kinsect_bonus_element">属性</string>
+    <string name="weapon_kinsect_bonus_health">体力</string>
+    <string name="weapon_kinsect_bonus_stamina">スタミナ</string>
+    <string name="weapon_kinsect_bonus_blunt">打撃</string>
+    <string name="weapon_kinsect_bonus_spirit_strength">気・力</string>
+    <string name="weapon_kinsect_bonus_stamina_health">体力回復・スタミナ強化</string>
+
+    <string name="weapon_gunlance_shelling">砲撃</string>
+    <string name="weapon_gunlance_shelling_long">放射型</string>
+    <string name="weapon_gunlance_shelling_normal">通常型</string>
+    <string name="weapon_gunlance_shelling_wide">拡散型</string>
+
+    <string name="weapon_hunting_horn_notes">音色</string>
+    <string name="weapon_hunting_horn_melodies">旋律</string>
+    <string name="weapon_hunting_horn_effect1">効果1</string>
+    <string name="weapon_hunting_horn_effect2">効果2</string>
+    <string name="weapon_hunting_horn_duration">効果時間</string>
+    <string name="weapon_hunting_horn_extension">延長</string>
+
+    <string name="weapon_bow_coatings">装着可能ビン</string>
+    <string name="weapon_bow_coatings_paralysis">麻痺</string>
+    <string name="weapon_bow_coatings_sleep">睡眠</string>
+    <string name="weapon_bow_coatings_power">強撃</string>
+    <string name="weapon_bow_coatings_poison">毒</string>
+    <string name="weapon_bow_coatings_close_range">接撃</string>
+    <string name="weapon_bow_coatings_blast">爆破</string>
+
+    <string name="weapon_bowgun_deviation">ブレ</string>
+    <string name="weapon_bowgun_special_ammo">特殊弾</string>
+    <string name="weapon_bowgun_special_ammo_wyvernblast">起爆竜弾</string>
+    <string name="weapon_bowgun_special_ammo_wyvernheart">機関竜弾</string>
+    <string name="weapon_bowgun_special_ammo_wyvernsnipe">狙撃竜弾</string>
+    <string name="weapon_bowgun_ammo_types">装填可能な弾丸</string>
+    <string name="weapon_bowgun_ammo_normal">Lv%1$d通常弾</string>
+    <string name="weapon_bowgun_ammo_pierce">Lv%1$d貫通弾</string>
+    <string name="weapon_bowgun_ammo_spread">Lv%1$d散弾</string>
+    <string name="weapon_bowgun_ammo_sticky">Lv%1$d徹甲榴弾</string>
+    <string name="weapon_bowgun_ammo_cluster">Lv%1$d拡散弾</string>
+    <string name="weapon_bowgun_ammo_recover">Lv%1$d回復弾</string>
+    <string name="weapon_bowgun_ammo_poison">Lv%1$d毒弾</string>
+    <string name="weapon_bowgun_ammo_paralysis">Lv%1$d麻痺弾</string>
+    <string name="weapon_bowgun_ammo_sleep">Lv%1$d睡眠弾</string>
+    <string name="weapon_bowgun_ammo_exhaust">Lv%1$d減気弾</string>
+    <string name="weapon_bowgun_ammo_flaming">火炎弾</string>
+    <string name="weapon_bowgun_ammo_thunder">電撃弾</string>
+    <string name="weapon_bowgun_ammo_dragon">滅龍弾</string>
+    <string name="weapon_bowgun_ammo_water">水冷弾</string>
+    <string name="weapon_bowgun_ammo_freeze">氷結弾</string>
+    <string name="weapon_bowgun_ammo_slicing">斬裂弾</string>
+    <string name="weapon_bowgun_ammo_wyvern">竜撃弾</string>
+    <string name="weapon_bowgun_ammo_demon">鬼人弾</string>
+    <string name="weapon_bowgun_ammo_armor">硬化弾</string>
+    <string name="weapon_bowgun_ammo_tranq">捕獲用麻酔弾</string>
+    <string name="weapon_bowgun_ammo_shot_normal">通常</string>
+    <string name="weapon_bowgun_ammo_shot_rapid_fire">速射</string>
+    <string name="weapon_bowgun_ammo_shot_auto_reload">単発自動装填</string>
+    <string name="weapon_bowgun_ammo_shot_wyvern">Wyvern</string>
+    <string name="weapon_bowgun_ammo_reload_very_slow">最遅</string>
+    <string name="weapon_bowgun_ammo_reload_slow">やや遅い</string>
+    <string name="weapon_bowgun_ammo_reload_normal">普通</string>
+    <string name="weapon_bowgun_ammo_reload_fast">やや早い</string>
+    <string name="weapon_bowgun_ammo_reload_very_fast">最速</string>
+    <string name="weapon_bowgun_shot_type_rcl">タイプ+反動</string>
+    <string name="weapon_bowgun_capacity">装填数</string>
+    <string name="weapon_bowgun_reload">リロード</string>
+    <string name="weapon_bowgun_recoil">反動</string>
+
+    <!-- ################ -->
+    <!-- ## ARMOR MENU ## -->
+    <!-- ################ -->
+    <string name="title_armor">防具</string>
+
+    <!-- Tab headers -->
+    <string name="tab_armor_detail">詳細</string>
+    <string name="tab_armor_set_summary">シリーズ詳細</string>
+
+    <!-- General Strings -->
+    <string name="armor_defense_value">%1$d - %2$d (%3$d)</string> <!-- Example: 32 - 64 (70) -->
+    <string name="armor_detail_piece_bonus">%1$d-セットボーナス:</string> <!-- Examples: 1-piece bonus: -->
+    <string name="armor_detail_vs_fire">耐火</string>
+    <string name="armor_detail_vs_water">耐水</string>
+    <string name="armor_detail_vs_thunder">耐雷</string>
+    <string name="armor_detail_vs_ice">耐氷</string>
+    <string name="armor_detail_vs_dragon">耐龍</string>
+    <string name="armor_detail_defense">防御力</string>
+    <string name="armor_detail_slots">スロット</string>
+
+    <!-- ################# -->
+    <!-- ## SKILLS MENU ## -->
+    <!-- ################# -->
+    <string name="title_skills">スキル</string>
+
+    <!-- General Strings -->
+    <string name="title_skill_level">レベル</string>
+    <string name="level_qty">レベル %1$d</string> <!-- Example: Level 1 -->
+    <string name="level_short_qty">Lv %1$d</string> <!-- Example: Lv 2 -->
+
+    <!-- ###################### -->
+    <!-- ## DECORATIONS MENU ## -->
+    <!-- ###################### -->
+
+    <string name="title_decorations">装飾</string>
+
+    <!-- General Strings -->
+    <string name="decorations_chance_mysterious">なぞの珠</string>
+    <string name="decorations_chance_glowing">光る珠</string>
+    <string name="decorations_chance_worn">古びた珠</string>
+    <string name="decorations_chance_warped">風化した珠</string>
+    <string name="decorations_chance_ancient">太古の珠</string>
+    <string name="decorations_chance_carved">刻まれた珠</string>
+    <string name="decorations_chance_sealed">封じられた珠</string>
+
+    <!-- ################# -->
+    <!-- ## CHARMS MENU ## -->
+    <!-- ################# -->
+
+    <string name="title_charms">護石</string>
+
+    <!-- #################### -->
+    <!-- ## LOCATIONS MENU ## -->
+    <!-- #################### -->
+
+    <string name="title_locations">マップ</string>
+
+    <!-- Section Headers -->
+    <string name="header_location_area">エリア %1$d</string>
+    <string name="header_location_base_camps">キャンプ</string>
+
+    <!-- ################ -->
+    <!-- ## QUEST MENU ## -->
+    <!-- ################ -->
+
+    <string name="title_quests">クエスト</string>
+    <string name="quest_category_assigned">任務</string>
+    <string name="quest_category_optional">フリー</string>
+    <string name="quest_category_event">イベント</string>
+    <string name="quest_category_arena">アリーナ</string>
+    <string name="quest_category_challenge">チャレンジ</string>
+    <string name="quest_category_special">特別任務</string>
+    <string name="quest_category_special_abbr">SP</string>
+    <string name="quest_category_combined">%s%s ★%d</string>
+
+    <string name="tab_quest_summary">詳細</string>
+    <string name="tab_quest_rewards">報酬</string>
+
+    <string name="quest_group">グループ %s</string>
+    <string name="quest_label_objective">目標</string>
+
+    <!-- ################ -->
+    <!-- ## KINSECT MENU ## -->
+    <!-- ################ -->
+
+    <string name="title_kinsects">操虫</string>
+
+    <string name="kinsect_attack_type">攻撃系統</string>
+    <string name="kinsect_attack_type_sever">切断</string>
+    <string name="kinsect_attack_type_blunt">打撃</string>
+
+    <string name="kinsect_dust_effect">操虫粉塵</string>
+    <string name="kinsect_dust_effect_poison">毒</string>
+    <string name="kinsect_dust_effect_paralysis">麻痺</string>
+    <string name="kinsect_dust_effect_heal">回復</string>
+    <string name="kinsect_dust_effect_blast">爆破</string>
+
+    <string name="kinsect_power">パワー</string>
+    <string name="kinsect_speed">スピード</string>
+    <string name="kinsect_heal">回復</string>
+
+    <string name="tab_kinsect_detail">詳細</string>
+    <string name="tab_kinsect_tree">派生</string>
+
+    <string name="kinsect_final_upgrades">最終派生</string>
+
+    <!-- ################# -->
+    <!-- ## SEARCH MENU ## -->
+    <!-- ################# -->
+
+    <!-- General Strings -->
+    <!-- Simple descriptor for data types (including modified descriptors) -->
+    <string name="type_location">マップ</string>
+    <string name="type_monster">モンスター</string>
+    <string name="type_monster_small">モンスター (小)</string>
+    <string name="type_monster_large">モンスター (大)</string>
+    <string name="type_skilltree">スキル</string>
+    <string name="type_decoration">装飾</string>
+    <string name="type_charm">護石</string>
+    <string name="type_armor">防具</string>
+    <string name="type_weapon">武器</string>
+    <string name="type_item">アイテム</string>
+    <string name="type_item_basic">アイテム</string>
+    <string name="type_item_material">素材</string>
+    <string name="type_item_ammo">弾/ビン</string>
+    <string name="type_item_misc">アイテム(その他)</string>
+    <string name="type_quest">クエスト</string>
+    <string name="type_kinsect">操虫</string>
+
+    <!-- #################### -->
+    <!-- ## BOOKMARKS MENU ## -->
+    <!-- #################### -->
+
+    <string name="title_bookmarks">ブックマーク</string>
+
+    <!-- #################### -->
+    <!-- ## TOOLS MENU ## -->
+    <!-- #################### -->
+    <string name="title_tools">特殊装具</string>
+
+    <string name="tool_effect_duration">効果時間</string>
+    <string name="tool_effect_recharge_time">再使用時間</string>
+    <string name="tool_slots">スロット</string>
+    <string name="tool_type">種類</string>
+    <string name="tool_mantle">装衣</string>
+    <string name="tool_booster">煙筒</string>
+
+    <!-- ################# -->
+    <!-- ## USER EQUIPMENT SET MENU ## -->
+    <!-- ################# -->
+    <string name="title_workshop">ワークショップ</string>
+    <string name="title_workshop_armor_selector">防具選択</string>
+    <string name="title_workshop_charm_selector">護石</string>
+    <string name="title_workshop_weapon_selector">武器選択</string>
+    <string name="title_workshop_decoration_selector">装飾選択</string>
+    <string name="title_workshop_tool_selector">装具選択</string>
+
+    <string name="tab_workshop_builder_summary">詳細</string>
+    <string name="tab_workshop_builder_equipment">装備</string>
+
+    <string name="user_equipment_set_new_set">新しい装備セット</string>
+    <string name="user_equipment_set_create_set">+ 装備セットを作成する</string>
+    <string name="user_equipment_set_no_equipment">装備なし</string>
+    <string name="user_equipment_set_no_decoration">装飾なし</string>
+    <string name="user_equipment_set_no_skill">スキルなし</string>
+    <string name="user_equipment_delete_set">装備セットを削除</string>
+    <string name="user_equipment_set_deleted">%1$s が削除されました</string>
+    <string name="user_equipment_new_set_name">装備セットの名前を変更</string>
+    <string name="user_equipment_apply">適用</string>
+    <string name="user_equipment_cancel">キャンセル</string>
+
+    <string name="user_equipment_set_filter_name">名前</string>
+    <string name="user_equipment_set_filter_slot_level">スロットレベル</string>
+    <string name="user_equipment_set_filter_elemental_defense">属性防御</string>
+    <string name="user_equipment_set_filter_add_skill">新しいスキルを追加する</string>
+    <!-- ################ -->
+    <!-- ## ABOUT MENU ## -->
+    <!-- ################ -->
+
+    <string name="about_body">
+        『Gathering Hall Studios』は、デザイナーと開発者からなるオープンソースチームです
+        モンスターハンターシリーズの高品質なアプリを作ることに専念しています。
+        \n\n参加したい、貢献したいという方は、いつでもお待ちしております。
+        『contact@gatheringhallstudios.com』までご連絡いただくか、Discordをご覧ください。
+        また、Githubでプロジェクトデータのソースコードを閲覧することができます。
+    </string>
 </resources>
